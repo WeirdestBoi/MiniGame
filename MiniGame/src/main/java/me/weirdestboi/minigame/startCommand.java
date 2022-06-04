@@ -133,6 +133,7 @@ public class startCommand implements CommandExecutor {
                                 public void run() {
 
                                     // Show Countdown to players
+                                    // aka also the code that needs to be repeated!
                                     BountifulAPI.sendTitle(player1, 0, 20, 0, "§e5", "§cThe Game Starts!");
                                     BountifulAPI.sendTitle(player2, 0, 20, 0, "§e5", "§cThe Game Starts!");
                                     Bukkit.getScheduler().runTaskLater(20);
@@ -150,7 +151,7 @@ public class startCommand implements CommandExecutor {
                                     Bukkit.getScheduler().runTaskLater(20);
                                     BountifulAPI.sendTitle(player1, 0, 20, 0, "§LetsoGoo", "§cThe Game Starts!");
                                     BountifulAPI.sendTitle(player2, 0, 20, 0, "§LetsoGoo", "§cThe Game Starts!");
-                                }.runTaskTimer(plugin, 0, 20)
+                                }
                             }
                         }
                     }
