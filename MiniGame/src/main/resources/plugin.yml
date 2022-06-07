@@ -1,9 +1,0 @@
-name: MiniGame
-version: '${project.version}'
-main: me.weirdestboi.minigame.MiniGame
-api-version: 1.18
-depend:
-  - BountifulAPI.1.6.4
-commands:
-  pvpgame:
-    description: The Main Command for this MiniGame-Plugin!
